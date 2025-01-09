@@ -14,6 +14,9 @@ import { RouterOutlet } from "@angular/router";
           aria-hidden="true"
         />
       </header>
+      <section class="content">
+        <app-home></app-home>
+      </section>
     </main>
   `,
   styleUrl: "./app.component.css",
